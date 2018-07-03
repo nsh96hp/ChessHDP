@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChineseChess</string>
+	<string name="computer_win">Hiahia, I win. dare to try again ?</string>
+	<string name="user_win">You are really lucky, dare to try again ?</string>
+	<string name="new_game">New Game</string>
+	<string name="restore_game">Continue</string>
+	<string name="welcome">Hello</string>
+	<string name="user_move">Your turn.</string>
+	<string name="computer_move">Let me have a look.</string>
+    <string name="level1">level LOW</string>
+    <string name="level2">level MIDDLE</string>
+    <string name="level3">level HIGH</string>
+	<string name="about">About</string>
+	<string name="about_title">HDP Solution</string>
+    <string name="about_content">HDP Solution is a professional IT solutions provider, specializing in developing mobile applications. We are constantly striving to develop creativity with the desire to deliver great, comprehensive applications that enable us to create a diverse ecosystem of applications that meet all your needs.</string>
+    <string name="address">5th floor of B5 / D6 building Cau Giay-Dich Vong-Cau Giay-Hanoi</string>
+    <string name="phone">+84 966 577 294</string>
+    <string name="mail">support@hdpsolutions.com</string>
+	<string name="exit">Exit</string>
+	<string name="select_lv">Select Level</string>
+	<string name="lv1">Easy</string>
+	<string name="lv2">Medium</string>
+	<string name="lv3">Hard</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="do_you_want_exit">Do you want exit?</string>
+	<string name="share">Share App</string>
+	<string name="rate">Rate App</string>
+    <string name="not_share">Could not share app!</string>
+    <string name="not_rate">Could not open Android Market!</string>
+	<string name="Undo">Undo</string>
+	<string name="you_want_undo">Do you want undo?</string>
+	<string name="you_cant_undo">You cant undo?</string>
+	<string name="two_player">2 Player</string>
+	<string name="player2">Black player move</string>
+	<string name="player1">Red player move</string>
+	<string name="player1_win">Red Player Win!</string>
+	<string name="player2_win">Black Player Win!</string>
+	<string name="Redo">Redo</string>
+	<string name="you_want_redo">Do you want redo?</string>
+	<string name="you_cant_redo">You cant redo!</string>
+	<string name="waiting">Please wait a moment!</string>
+	<string name="statistical">Statistical</string>
+	<string name="total_match">Total Match</string>
+	<string name="level">Level</string>
+	<string name="win">Win</string>
+	<string name="lose">Lose</string>
+	<string name="time">Time</string>
+	<string name="result">Result</string>
+	<string name="detail">Detail</string>
+
+	<string name="my_own_cancel">Cancel</string>
+	<string name="my_own_message">Do you want to rate this application?</string>
+	<string name="my_own_rate">Ok</string>
+	<string name="my_own_thanks">Don\'t show again</string>
+	<string name="my_own_title">Rate</string>
+
+
+</resources>

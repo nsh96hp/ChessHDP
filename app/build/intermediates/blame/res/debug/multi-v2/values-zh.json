@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\AndroidStudio\\ProjectAndroid\\ChessHDP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\nsh96\\.gradle\\caches\\transforms-1\\files-1.1\\ratethisapp-1.2.0.aar\\1854d1081bc296b3a88e105f3e4c0f3a\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,106,202,251,297",
+                        "endColumns": "50,95,48,45,53",
+                        "endOffsets": "101,197,246,292,346"
+                    }
+                }
+            ]
+        }
+    ]
+}

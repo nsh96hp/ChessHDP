@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cờ tướng</string>
+    <string name="computer_win">Máy thắng, bạn muốn thử lại không?</string>
+    <string name="user_win">Bạn thắng, bạn muốn thử lại chứ?</string>
+    <string name="new_game">Bắt đầu</string>
+    <string name="restore_game">Tiếp tục</string>
+    <string name="welcome">Xin chào</string>
+    <string name="user_move">Lượt của bạn</string>
+    <string name="computer_move">Để tôi nhìn xem nào!</string>
+    <string name="level1">Easy</string>
+    <string name="level2">Medium</string>
+    <string name="level3">High</string>
+    <string name="about">Giới thiệu</string>
+    <string name="about_title">HDP Solution</string>
+    <string name="about_content">HDP Solution là nhà cung cấp giải pháp về lĩnh vực CNTT chuyên nghiệp, chuyên phát triển các ứng dụng trên di dộng. Chúng tôi luôn không ngừng cố gắng phát triển sáng tạo với mong muốn mang lại những ứng dụng tuyệt vời, toàn diện để có thể tạo ra một hệ sinh thái ứng dụng đa dạng đáp ứng tất cả nhu cầu của các bạn</string>
+    <string name="address">Tầng 5 tòa nhà B5/D6 Khu đô thị mới Cầu Giấy-Dịch Vọng-Cầu Giấy-Hà Nội</string>
+    <string name="phone">+84 966 577 294</string>
+    <string name="mail">support@hdpsolutions.com</string>
+    <string name="exit">Thoát</string>
+    <string name="select_lv">Chọn độ khó</string>
+    <string name="lv1">Dễ</string>
+    <string name="lv2">Vừa</string>
+    <string name="lv3">Khó</string>
+    <string name="yes">Đồng ý</string>
+    <string name="no">Không</string>
+    <string name="do_you_want_exit">Bạn muốn thoát?</string>
+    <string name="share">Chia sẻ</string>
+    <string name="rate">Đánh giá</string>
+    <string name="not_share">Không thể chia sẻ ứng dụng!</string>
+    <string name="not_rate">Không thể mở ứng dụng trên CH Play!</string>
+    <string name="Undo">Đi lại</string>
+    <string name="you_want_undo">Bạn muốn quay lại nước cũ?</string>
+    <string name="you_cant_undo">Bạn không thể quay lại nước cũ?</string>
+    <string name="two_player">2 người</string>
+    <string name="player2">Lượt bên đen</string>
+    <string name="player1">Lượt bên đỏ</string>
+    <string name="player1_win">Bên đỏ thắng!</string>
+    <string name="player2_win">Bên đen thắng!</string>
+    <string name="Redo">Hoàn tác</string>
+    <string name="you_want_redo">Bạn muốn hoàn tác?</string>
+    <string name="you_cant_redo">Bạn không thể hoàn tác !</string>
+    <string name="waiting">Vui lòng chờ trong giây lát!</string>
+    <string name="statistical">Thống kê</string>
+    <string name="total_match">Tổng trận</string>
+    <string name="level">Độ khó</string>
+    <string name="win">Thắng</string>
+    <string name="lose">Thua</string>
+    <string name="time">Thời gian</string>
+    <string name="result">Kết quả</string>
+    <string name="detail">Chi tiết</string>
+
+
+    <string name="my_own_cancel">Để sau</string>
+    <string name="my_own_message">Bạn có thích ứng dụng game Cờ Tướng này? Bạn có muốn đánh giá để game ngày càng phát triển?</string>
+    <string name="my_own_rate">Ok</string>
+    <string name="my_own_thanks">Không hiện nữa</string>
+    <string name="my_own_title">Đánh giá</string>
+
+</resources>

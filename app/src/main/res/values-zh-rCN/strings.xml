@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">中国象棋</string>
+	<string name="computer_win">哈哈，我赢了。还敢再玩儿吗？</string>
+	<string name="user_win">算你运气好，下次就不一定了。敢再来一局吗？</string>
+	<string name="new_game">新游戏</string>
+    <string name="restore_game">继续游戏</string>
+	<string name="welcome">亲，终于回来了，想死我了</string>
+	<string name="user_move">该你动手啦~~~</string>
+	<string name="computer_move">给点儿时间让我想想。。。</string>
+	<string name="level1">初级</string>
+	<string name="level2">中级</string>
+	<string name="level3">高级</string>
+	<string name="about">关于</string>
+	<string name="about_title">HDP Solution</string>
+	<string name="about_content">HDP解决方案是专业的IT解决方案提供商，专门开发移动应用程序。 我们一直致力于开发创造力，希望能够交付出色的综合应用程序，使我们能够创建满足您所有需求的多样化应用程序生态系统。</string>
+	<string name="address">B5 / D6大楼Cau Giay-Dich Vong-Cau Giay-Hanoi的5楼</string>
+	<string name="phone">+84 966 577 294</string>
+	<string name="mail">support@hdpsolutions.com</string>
+	<string name="exit">出口</string>
+	<string name="select_lv">选择级别</string>
+	<string name="lv1">简单</string>
+	<string name="lv2">中</string>
+	<string name="lv3">硬</string>
+	<string name="yes">是</string>
+	<string name="no">没有</string>
+	<string name="do_you_want_exit">你想退出吗？</string>
+	<string name="share">分享</string>
+	<string name="rate">率</string>
+	<string name="not_share">无法分享应用程序！</string>
+	<string name="not_rate">无法打开Android电子市场！</string>
+	<string name="Undo">解开</string>
+	<string name="you_want_undo">你想撤消吗？</string>
+    <string name="you_cant_undo">你不能撤消？</string>
+	<string name="two_player">两名球员</string>
+	<string name="player2">黑人球员移动</string>
+	<string name="player1">红色球员移动</string>
+	<string name="player1_win">红色球员赢了！</string>
+	<string name="player2_win">黑人玩家赢了！</string>
+	<string name="Redo">重做</string>
+	<string name="you_want_redo">你想重做吗？</string>
+	<string name="you_cant_redo">你不能重做！</string>
+    <string name="waiting">请稍候！</string>
+	<string name="statistical">统计</string>
+	<string name="total_match">总比赛</string>
+	<string name="level">水平</string>
+	<string name="win">赢得</string>
+	<string name="lose">失去</string>
+	<string name="time">时间</string>
+	<string name="result">结果</string>
+	<string name="detail">详情</string>
+
+	<string name="my_own_cancel">取消</string>
+	<string name="my_own_message">你想评价这个应用程序吗？</string>
+	<string name="my_own_rate">好</string>
+	<string name="my_own_thanks">不要再显示</string>
+	<string name="my_own_title">率</string>
+
+</resources>

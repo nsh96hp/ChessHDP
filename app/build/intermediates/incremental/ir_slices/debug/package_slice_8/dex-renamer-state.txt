@@ -1,0 +1,4 @@
+#Thu May 31 15:30:45 ICT 2018
+base.0=E\:\\AndroidStudio\\ProjectAndroid\\DemoAll\\ChessHDP\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+path.0=classes.dex
+renamed.0=classes.dex

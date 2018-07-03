@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg2">
+
+
+    <RelativeLayout
+        android:id="@+id/mainview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <com.onezeros.chinesechess.ChessboardView
+            android:id="@+id/chessboard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/qp1" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_above="@id/chessboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/ic_com_thinking"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:layout_gravity="left"
+                android:src="@drawable/ic_com_thinking"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/info_tv"
+                android:layout_width="0dp"
+                android:layout_weight="9"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginRight="12dip"
+                android:paddingRight="4dp"
+                android:textColor="#fff"
+                android:textSize="15dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/AdLinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chessboard"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/undo_btn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="40dip"
+                android:layout_marginTop="8dip"
+                android:layout_weight="1"
+                android:background="@color/colorBtn"
+                android:scaleType="fitCenter"
+                android:src="@drawable/undo_ic"
+                android:textSize="16dp" />
+
+            <ImageButton
+                android:id="@+id/logout_btn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="8dip"
+                android:layout_weight="1"
+                android:background="@color/colorBtn"
+                android:scaleType="fitCenter"
+                android:src="@drawable/exit_ic"
+                android:textSize="16dp" />
+
+            <ImageButton
+                android:id="@+id/redo_btn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dip"
+                android:layout_marginRight="8dip"
+                android:layout_marginTop="8dip"
+                android:layout_weight="1"
+                android:background="@color/colorBtn"
+                android:scaleType="fitCenter"
+                android:src="@drawable/redo_ic"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/menubg"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_marginTop="20dip"
+            android:src="@drawable/logo"
+            android:layout_width="240dp"
+            android:layout_gravity="center"
+            android:layout_height="180dp" />
+
+        <Button
+            android:id="@+id/new_game_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dip"
+            android:layout_marginRight="50dip"
+            android:layout_marginTop="2dip"
+            android:background="@drawable/btn1"
+            android:text="@string/new_game"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/new_game_2_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dip"
+            android:layout_marginRight="50dip"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn1"
+            android:text="@string/two_player"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/restore_game_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dip"
+            android:layout_marginRight="50dip"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn1"
+            android:text="@string/restore_game"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+        <Button
+            android:id="@+id/statistical_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dip"
+            android:layout_marginRight="50dip"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn1"
+            android:text="@string/statistical"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+
+
+        <Button
+            android:id="@+id/about_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dip"
+            android:layout_marginRight="50dip"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn1"
+
+            android:text="@string/about"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/share_btn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn1"
+                android:text="@string/share"
+                android:textColor="#fff"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/rate_btn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="50dip"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn1"
+
+                android:text="@string/rate"
+                android:textColor="#fff"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/exit_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dip"
+            android:layout_marginRight="50dip"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn1"
+            android:text="@string/exit"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+</FrameLayout>
